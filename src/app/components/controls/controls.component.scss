@@ -1,0 +1,32 @@
+.controls {
+  background-color: white;
+  padding: 12px;
+  box-sizing: border-box;
+  border-radius: 4px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .input {
+    width: 100%;
+  }
+
+  .small {
+    font-size: 12px;
+    color: #9E9E9E;
+
+    margin-top: 20px;
+  }
+
+  .buttons {
+    .first {
+      margin-right: 4px;
+    }
+
+    .second {
+      margin-left: 4px;
+    }
+  }
+}

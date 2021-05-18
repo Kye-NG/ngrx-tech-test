@@ -1,0 +1,12 @@
+<form class="controls mat-elevation-z8">
+  <mat-form-field class="input" floatPlaceholder="never">
+    <input matInput placeholder="Change Animals" [(ngModel)]="inputText" name="animalinput">
+  </mat-form-field>
+
+  <div class="buttons">
+    <button mat-raised-button class="first" (click)="changeAnimals(); $event.preventDefault()" color="primary">Change</button>
+    <button mat-raised-button class="second" (click)="addDog(); $event.preventDefault()" color="accent">Add Dog</button>
+  </div>
+
+  <p class="small">Create new animals by names seperated by spaces in the input above.</p>
+</form>
